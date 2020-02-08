@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: rgba(41, 61, 90, 0.99);
+}
+
+#container {
+  background: rgba(33, 48, 71, 0.99);
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgb(204, 214, 246);
+  background: transparent;
+  margin-top: 10%;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: grey;
+}
+
+li {
+  margin: 5px 0;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  color: rgba(100, 255, 218, 1);
+  font-size: 18px;
+}
+
+li:hover {
+  cursor: default;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  background-color: rgba(33, 48, 71, 0.99);
+  padding: 13px 13px 13px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgb(100, 255, 218);
+  font-family: inherit;
+  border-radius: 10px;
+  border: 1px solid rgba(100, 255, 218, 0.2);
+}
+
+input[type="checkbox"] {
+  border: none;
+  background-color: rgb(204, 214, 246);
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+input:focus {
+  background: rgba(33, 48, 71, 0.99);
+  border: 1px solid rgb(100, 255, 218);
+}
+
+.accent {
+  font-size: 80px;
+  color: rgb(100, 255, 218);
+}
+
+li i {
+  margin: 12px 10px;
+  float: right;
+  font-size: smaller;
+  color: rgba(41, 61, 90, 0.9);
+}
+
+::selection {
+  color: none;
+  background: none;
+}
