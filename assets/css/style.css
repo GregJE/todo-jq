@@ -71,6 +71,7 @@ input[type="checkbox"] {
   background-color: rgb(204, 214, 246);
   cursor: pointer;
   margin: 0 10px;
+  opacity: 0.15;
 }
 
 input:focus {
@@ -88,6 +89,10 @@ li i {
   float: right;
   font-size: smaller;
   color: rgba(41, 61, 90, 0.9);
+}
+
+i:hover {
+  cursor: pointer;
 }
 
 ::selection {
