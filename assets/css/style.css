@@ -15,7 +15,7 @@ body {
 
 #container {
   background: rgba(33, 48, 71, 0.99);
-  width: 400px;
+  width: 500px;
   margin: auto;
   border-radius: 10px;
 }
@@ -23,7 +23,7 @@ body {
 h1 {
   color: rgb(204, 214, 246);
   background: transparent;
-  margin-top: 10%;
+  margin-top: 100px;
   text-align: center;
   padding: 10px 20px;
   font-size: 45px;
@@ -41,12 +41,17 @@ li {
   height: 40px;
   line-height: 40px;
   padding: 0 10px;
-  color: rgba(100, 255, 218, 1);
+  color: rgb(204, 214, 246);
   font-size: 18px;
 }
 
 li:hover {
   cursor: default;
+}
+
+i:hover {
+  color: rgb(100, 255, 218);
+  cursor: pointer;
 }
 
 ul {
@@ -91,11 +96,15 @@ li i {
   color: rgba(41, 61, 90, 0.9);
 }
 
-i:hover {
-  cursor: pointer;
-}
-
 ::selection {
   color: none;
   background: none;
+}
+
+.highlight {
+  color: rgb(100, 255, 218);
+}
+
+.default {
+  color: rgb(204, 214, 246);
 }
